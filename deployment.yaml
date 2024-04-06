@@ -16,7 +16,7 @@ spec:
       - name: nodejs-app
         image: atanubiswas/hello-node:v0.1
         ports:
-        - containerPort: 3000
+        - containerPort: 80
         resources:
           limits:
             cpu: "500m"  # 500 milliCPU
